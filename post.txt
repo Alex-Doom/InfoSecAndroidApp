@@ -1,0 +1,47 @@
+POST /m/batch HTTP/1.1
+Host: a.wb.ru
+X-Api-Key: 6AMAAAAAAAA=
+Content-Type: application/json; charset=utf-8
+Accept-Encoding: gzip, deflate, br
+User-Agent: okhttp/4.12.5-wb
+Content-Length: 821
+Connection: keep-alive
+
+{
+  "meta": {
+    "locale": "ru-RU",
+    "device": "generic_x86_64",
+    "sdk_version": "27",
+    "model": "generic_x86_64",
+    "mobile_device_type": "phone",
+    "product": "Android",
+    "os-build": "8.1.0",
+    "manufacturer": "unknown",
+    "fingerprint": "Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys",
+    "tz_offset": "-0500",
+    "net_type": "Wi-Fi",
+    "app_id": "com.wildberries.ru",
+    "app_version": "7.0.0002-rustore",
+    "analytics_sdk_version": "1.0",
+    "device_id": "11886101912676381375",
+    "local_time": "2025-03-04T08:59:29.118-05:00",
+    "is_new_user": 0,
+    "batch_num": 84
+  },
+  "events": [
+    {
+      "name": "user_engagement",
+      "event_time": "2025-03-04T08:59:20.449-05:00",
+      "event_num": 654,
+      "data": {
+        "lang": "ru",
+        "address": "208299",
+        "country": "ru",
+        "cluster": "",
+        "text_size": "0",
+        "screen_name": "PromoCategoriesFirstStepFragment",
+        "screen_class": "PromoCategoriesFirstStepFragment"
+      }
+    }
+  ]
+}
